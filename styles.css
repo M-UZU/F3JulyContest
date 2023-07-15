@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.921);
+}
+
+.wrapper .sidebar{
+    background:#0C0E10;
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    padding: 20px 20px;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.profile img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.resto-name{
+    padding: 10px;
+    text-align: center;
+}
+.profile h3{
+    
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.profile p{
+    font-size: 12px;
+    color: rgb(192, 192, 10);
+}
+
+.quick-links h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+li{
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.nav-button{
+    width: 100px;
+height: 38px;
+top: 20px;
+background-color: red;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 4px;
+font-size: 14px;
+cursor: pointer;
+
+
+}
+
+
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.Section{
+    position: relative;
+    padding-left: 260px;
+} 
+
+.nav-bar{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    position: fixed;
+}
+
+.banner img{
+    height: 400px;
+    width: 1000px;
+    margin-top: 60px;
+}
+
+
+.nav-bar input{
+    width: 700px;
+}
+
+#menu-container{
+    display: flex;
+    flex-flow:row wrap ;
+    column-gap: 25px;
+    row-gap: 10px;
+}
